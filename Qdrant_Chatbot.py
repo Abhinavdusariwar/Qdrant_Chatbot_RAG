@@ -20,8 +20,8 @@ splitter = RecursiveCharacterTextSplitter(chunk_size = 500, chunk_overlap= 100)
 split = splitter.split_text(text)
 
 client = QdrantClient(
-    url="https://444d543e-d2ee-4060-ad43-fb65b65285e0.us-east-1-1.aws.cloud.qdrant.io:6333", 
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.YXwRMD8gUEyAh7LilFfeWDCh1WaNA-zIU0FlkdnfoGY",
+    url="XXXXXXXXXXXXX", 
+    api_key="XXXXXXXXXXXXXX",
 )
 
 
